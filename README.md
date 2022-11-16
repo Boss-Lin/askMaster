@@ -3,6 +3,8 @@
 | ------------- | ------------- |
 | user_1| Obi-Wan	|
 | user_2| Darth Vader	|
+| user_3| Darth Maul |
+
 > ### 問題
 > 1. 假如資料庫設計我不使用“AUTO_INCREMENT”，程式碼要如何達到自動編號？
 > 2. JDBC要怎麼達到客製化ID的效果(ex: user_數字)？
@@ -12,12 +14,14 @@
 | ------------- | -----|-------- |
 | 1	| user_1	| Jedi|
 | 2	| user_2 	|Sith|
+| 3	| user_3 	|Sith|
 
 ### Table3: Force
 | Id	| Ref_Id |	The Force|
 | ------------- | ----|--------- |
 | 1	| 1 	| bright side|
 | 2	| 2 	|dark side|
+| 3	| 3 	|dark side|
 
 ## 說明
 **每一個table的Ref_Id都是對應上一個table的Id。**
